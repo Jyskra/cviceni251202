@@ -36,6 +36,6 @@ public class MyLinkedList implements Iterable<Node> {
 
     @Override
     public Iterator<Node> iterator() {
-        return new MyLinkedListIterator(head);
+        return new MyLinkedListIteratorBackwards(tail);
     }
 }
